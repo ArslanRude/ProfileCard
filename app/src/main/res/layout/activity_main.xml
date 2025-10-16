@@ -383,6 +383,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:contentDescription="GitHub QR Code"
+                                android:src="@drawable/arslan_github"
                                 android:padding="8dp"/>
                         </androidx.cardview.widget.CardView>
 
@@ -394,7 +395,6 @@
                             android:textSize="12sp" />
                     </LinearLayout>
 
-                    <!-- LinkedIn QR -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -415,6 +415,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:contentDescription="LinkedIn QR Code"
+                                android:src="@drawable/arslan_linkedin"
                                 android:padding="8dp"/>
                         </androidx.cardview.widget.CardView>
 
@@ -426,7 +427,6 @@
                             android:textSize="12sp" />
                     </LinearLayout>
 
-                    <!-- Twitter QR -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -443,17 +443,18 @@
                             app:cardElevation="0dp">
 
                             <ImageView
-                                android:id="@+id/twitterQR"
+                                android:id="@+id/instagramQR"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:contentDescription="Twitter QR Code"
+                                android:contentDescription="Instagram QR Code"
+                                android:src="@drawable/arslan_instagram"
                                 android:padding="8dp" />
                         </androidx.cardview.widget.CardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Twitter"
+                            android:text="Instagram"
                             android:textColor="#B0B0B0"
                             android:textSize="12sp" />
                     </LinearLayout>
